@@ -9,14 +9,14 @@ SuperFactory.GetInstance("工厂模式.WebMaker");
 SuperFactory.GetInstance("工厂模式.Apple");
 
 System.Console.WriteLine("------------------------------------------------------------------------------------------------------");
-//
-////单例
-//var single1 = Singleton.GetInstance();
-//single1.Msg = "我是被single1赋值的";
-//var single2 = Singleton.GetInstance();
-//System.Console.WriteLine(single2.Msg);
-//
-//System.Console.WriteLine("------------------------------------------------------------------------------------------------------");
+
+//单例
+var single1 = Singleton.GetInstance();
+single1.Msg = "我是被single1赋值的";
+var single2 = Singleton.GetInstance();
+System.Console.WriteLine(single2.Msg);
+
+System.Console.WriteLine("------------------------------------------------------------------------------------------------------");
 
 
 
