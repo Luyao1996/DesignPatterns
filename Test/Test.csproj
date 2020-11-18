@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\工厂模式\工厂模式.csproj" />
     <ProjectReference Include="..\单例模式\单例模式.csproj" />
+    <ProjectReference Include="..\工厂模式\工厂模式.csproj" />
   </ItemGroup>
 
 </Project>
