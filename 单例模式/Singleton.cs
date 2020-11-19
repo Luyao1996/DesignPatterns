@@ -2,6 +2,9 @@
 
 namespace 单例模式
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class Singleton
     {
         /// <summary>
